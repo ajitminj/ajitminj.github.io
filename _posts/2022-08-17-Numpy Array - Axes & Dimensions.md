@@ -65,24 +65,6 @@ shape of numpy array a: ()
 The datatype of a:  <class 'numpy.ndarray'>
 dimension of numpy array a: 0
 ```
-
-COPY
-
-COPY
-
-COPY
-
-COPY
-import numpy as np
-# create a 0-dimension array
-a = np.array(2)
-print("shape of numpy array a:", a.shape)   # returns an empty array
-print("The datatype of a: ", type(a))
-print("dimension of numpy array a:", a.ndim)
-Output:
-shape of numpy array a: ()
-The datatype of a:  <class 'numpy.ndarray'>
-dimension of numpy array a: 0
 Ok, so we just verified above, that a zero-dimension Numpy array is a scalar. You can also see that the datatype is a Numpy array. We will cover shape of an array later in the article. Once you understand the dimension concept, shape of an array would be a cakewalk. The array element here cannot be accessed via indexing. If you try to access the array element, Python will throw an index error as below 👇
 
 
