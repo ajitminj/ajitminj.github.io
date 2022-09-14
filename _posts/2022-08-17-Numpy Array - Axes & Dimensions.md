@@ -21,12 +21,14 @@ Understanding Axis & Dimensions
 You may find it a bit confusing, especially when you use axis when applying functions to multidimensional data. Whether you're manipulating data in Numpy, Pandas, TensorFlow, or another library, you'll encounter them often. The basic concepts covered here will be common to all these libraries.
 
 What is the Axis?
-Simply put, the axis is what represents the dimension of the data and for Numpy arrays it's used interchangeably, both having the same meaning. The dimension of an array is simply the no. of index position or combination of index positions you need to provide to access a single array element. Let's go through different examples to understand its core basic meaning. But before that, let's quickly have a look at how an array is indexed or stored in memory and how you can extract elements from an array.image.png
+Simply put, the axis is what represents the dimension of the data and for Numpy arrays it's used interchangeably, both having the same meaning. The dimension of an array is simply the no. of index position or combination of index positions you need to provide to access a single array element. Let's go through different examples to understand its core basic meaning. But before that, let's quickly have a look at how an array is indexed or stored in memory and how you can extract elements from an array.
+
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/Array Indexing.png.jpg)
 
 The elements in an array are stored as index starting from 0 to n-1 where n is the no. of elements in an array. Numpy array is flexible in the sense that it also supports negative indexing starting from -1 (from the end of an array)to retrieve array contents from the end. To access an element of a 1-dimensional array you just need to specify a single index position like in the code below.
 
 
-COPY
+
 
 COPY
 
