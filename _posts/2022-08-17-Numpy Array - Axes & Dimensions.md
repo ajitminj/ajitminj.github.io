@@ -11,16 +11,20 @@ tags:
 
 When you first start working with Numpy arrays as I did couple of years ago with machine learning, it can be a little confusing. Machine learning libraries such as Scikit-learn requires input in a certain shape and size which can be pretty confusing and frustrating for beginners venturing into machine learning. If you just do a plain google search, Stackoverflow has over 5,000 queries regarding clarity with Numpy array dimensions. In this post, I try to cover the basic understanding of Numpy array with respect to its dimensions and shape and further understanding of multi-dimensional arrays. Let’s get started!
 
-What is a Numpy Array?
+## What is a Numpy Array?
+
 Numpy (which stands for Numerical Python) arrays are fundamental building blocks of scientific computing in Python. They are similar to matrices, but they don’t have to be square. They can have any shape we like, and they can store values of any type, not just numbers. If you’ve used another programming language, then an array is a way to store a list of values of the same type. So, essentially, an array is a collection of data items of the same type. Numpy arrays go beyond that: they are flexible containers for data of any type and shape. Numpy is designed to take advantage of modern computer architectures, optimize memory usage, and be appropriate for a wide variety of applications. It’s optimized for efficient use with computer languages like Python, R, Julia, and more.
 
-Working with Numpy Arrays
+## Working with Numpy Arrays
+
 Numpy arrays are the fundamental data structure in the Numpy library, and they are the key to Numpy’s speed and efficiency. Numpy arrays are built on C-style arrays, which are simple lists of numbers, but they have been optimized to take advantage of modern hardware architectures. The data inside a Numpy array is organized as a series of contiguous elements, each with a specific data type and position number, with each element taking up the same amount of space. This means that when you are working with a large array, all of the elements are stored together in memory, which makes reading and writing from disk much faster.
 
-Understanding Axis & Dimensions
+## Understanding Axis & Dimensions
+
 You may find it a bit confusing, especially when you use axis when applying functions to multidimensional data. Whether you're manipulating data in Numpy, Pandas, TensorFlow, or another library, you'll encounter them often. The basic concepts covered here will be common to all these libraries.
 
-What is the Axis?
+## What is the Axis?
+
 Simply put, the axis is what represents the dimension of the data and for Numpy arrays it's used interchangeably, both having the same meaning. The dimension of an array is simply the no. of index position or combination of index positions you need to provide to access a single array element. Let's go through different examples to understand its core basic meaning. But before that, let's quickly have a look at how an array is indexed or stored in memory and how you can extract elements from an array.
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/Array Indexing.png){: .align-center}
@@ -44,7 +48,9 @@ Array1 = [1 2 3 4 5 6 7 8]
 Element at index position 1 is: 2
 Element at index position -7 is: 2
 ```
-Zero-Dimensional Array
+
+## Zero-Dimensional Array
+
 Scalar - Numpy array in zero-dimension is a scalar value. It is simply a single number. A scalar is just a number with no dimension or axis. (an analogy to scalar value in physics, which has only magnitude but no direction or dimension/axis in this case) 👀. Scalars, are the elements in an array. Each value in an array is a zero-dimension array.
 
 ```
