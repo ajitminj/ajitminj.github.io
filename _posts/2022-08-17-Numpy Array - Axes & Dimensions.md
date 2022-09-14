@@ -4,9 +4,10 @@ excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - Numpy
+  - Array
+  - Machine learning
+  - Datascience
 ---
 
 When you first start working with Numpy arrays as I did couple of years ago with machine learning, it can be a little confusing. Machine learning libraries such as Scikit-learn requires input in a certain shape and size which can be pretty confusing and frustrating for beginners venturing into machine learning. If you just do a plain google search, Stackoverflow has over 5,000 queries regarding clarity with Numpy array dimensions. In this post, I try to cover the basic understanding of Numpy array with respect to its dimensions and shape and further understanding of multi-dimensional arrays. Let’s get started!
