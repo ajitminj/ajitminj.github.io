@@ -186,7 +186,8 @@ Output:
 shape of array : (2, 2, 3)
 ```
 
-Below is the visual representation of a 3-D array we created above.image.png
+Below is the visual representation of a 3-D array we created above.
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/3-d.png){: .align-center}
 
 3-dimensional arrays are basically a collection of matrices in the shape of (m,n,p) where 'm' is the no. of matrices, 'n' is the no. of vectors in each matrix and 'p' is the no. of elements in each vector. Hence, the shape for above array is (2,2,3). You can also view the shape of 3-dimensional array as each matrix representing a plane and each plane with its vector and corresponding elements in those vectors.
 
