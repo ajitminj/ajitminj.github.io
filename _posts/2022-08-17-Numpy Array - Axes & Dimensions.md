@@ -195,3 +195,4 @@ Below is the visual representation of a 3-D array we created above.
 Once you have this basic understanding of Numpy array dimensions and shape, it becomes a lot easier to visualize and understand the code when you are working with high dimensional data (i.e. arrays greater than 3-D) which is very common in machine learning practice. 👍
 
 I started this article to cover array data manipulation tasks such as broadcasting, array slicing, reshaping and applying various functions on array, but realized the basic introduction is very important to understand further advanced operations with Numpy arrays and at the end the post got a bit lengthy 🤦‍♂️. I shall cover the array data manipulation in the upcoming post. Hope, you got a few takeaways from this post. 👍😊 Till next time stay safe, keep practicing and happy learning! 😊
+
