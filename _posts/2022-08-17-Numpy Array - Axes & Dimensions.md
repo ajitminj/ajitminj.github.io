@@ -142,19 +142,13 @@ Vector2 has shape of: (3, 1)
 
 The row vector1 has a dimension of 1 and shape of 3 whereas column vector2 has dimension of 2 and shape of (3,1). (Note* Linear algebra makes a distinction between "row vectors" and "column vectors". There is no such distinction in NumPy)
 
-2-Dimensional Array
+## 2-Dimensional Array
+
 Here, vector2 is a 2-dimensional array. We can also say it's a matrix with a collection of vectors and has a shape of (n,m), where 'n' is the number of vectors in it and 'm' is the number of elements in each vector. Here, it has 3 vectors with one element each and hence, its shape is (3,1). You can also visualize dimensions as axis=0 for rows and axis=1 for columns as we will see below.
 
 For a 2-dimensional array we need to provide 2 index positions to extract the single element.
 
-
-COPY
-
-COPY
-
-COPY
-
-COPY
+```
 # Extracts the single element list
 print(vector2[0])
 # Extracts the single element with two index positions specified
@@ -163,6 +157,7 @@ print(vector2[0,0])
 Output:
 [10] 
 10
+``` 
 image.png
 
 The catch here is to understand the shape of an array. The shape of an array is the number of elements in each dimension. Hence, for a zero-dimensional array you will get an empty array as we saw earlier.
