@@ -69,6 +69,7 @@ Element at index position 1 is: 2
 Element at index position -7 is: 2
 Zero-Dimensional Array
 Scalar - Numpy array in zero-dimension is a scalar value. It is simply a single number. A scalar is just a number with no dimension or axis. (an analogy to scalar value in physics, which has only magnitude but no direction or dimension/axis in this case) 👀. Scalars, are the elements in an array. Each value in an array is a zero-dimension array.
+
 ```
 import numpy as np
 # create a 0-dimension array
