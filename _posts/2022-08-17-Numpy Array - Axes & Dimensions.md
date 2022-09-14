@@ -165,17 +165,11 @@ The catch here is to understand the shape of an array. The shape of an array is 
 
 In the example above, vector2 being a nested list, you can see it as 3 vectors/rows along axis=0 and 1 element/column in second dimension or axis=1. Hence the shape (3,1).
 
-3-Dimensional Array
+## 3-Dimensional Array
+
 Let's create a 3-dimensional array and have a look at its dimension and shape. You can also specify the dimension of the array using ndmin parameter while creating an array.
 
-
-COPY
-
-COPY
-
-COPY
-
-COPY
+```
 array3d = np.array([[[1, 2, 3], [4,5,6]], [[7,8,9], [10,11,12]]], ndmin=3)
 
 print(array3d)
@@ -190,6 +184,8 @@ Output:
   [10 11 12]]]
 -------------------
 shape of array : (2, 2, 3)
+```
+
 Below is the visual representation of a 3-D array we created above.image.png
 
 3-dimensional arrays are basically a collection of matrices in the shape of (m,n,p) where 'm' is the no. of matrices, 'n' is the no. of vectors in each matrix and 'p' is the no. of elements in each vector. Hence, the shape for above array is (2,2,3). You can also view the shape of 3-dimensional array as each matrix representing a plane and each plane with its vector and corresponding elements in those vectors.
