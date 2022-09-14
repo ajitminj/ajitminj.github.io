@@ -27,6 +27,23 @@ Simply put, the axis is what represents the dimension of the data and for Numpy 
 
 The elements in an array are stored as index starting from 0 to n-1 where n is the no. of elements in an array. Numpy array is flexible in the sense that it also supports negative indexing starting from -1 (from the end of an array)to retrieve array contents from the end. To access an element of a 1-dimensional array you just need to specify a single index position like in the code below.
 
+```
+import numpy as np
+
+Array1 = np.array([1,2,3,4,5,6,7,8])
+# Element at index position 1
+print("Array1 =",Array1)
+print("-----------------------------")
+print("Element at index position 1 is:", Array1[1]) 
+# With negative indexing
+print("Element at index position -7 is:", Array1[-7])  
+
+Output:
+Array1 = [1 2 3 4 5 6 7 8]
+------------------------
+Element at index position 1 is: 2
+Element at index position -7 is: 2
+```
 
 
 
