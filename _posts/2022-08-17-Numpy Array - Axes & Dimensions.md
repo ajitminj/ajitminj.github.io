@@ -159,7 +159,7 @@ Output:
 10
 ``` 
 
-![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/Array Indexing.png){: .align-center}
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/Axes.png){: .align-center}
 
 The catch here is to understand the shape of an array. The shape of an array is the number of elements in each dimension. Hence, for a zero-dimensional array you will get an empty array as we saw earlier.
 
