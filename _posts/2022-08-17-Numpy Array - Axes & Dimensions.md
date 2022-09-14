@@ -78,7 +78,8 @@ IndexError                                Traceback (most recent call last)
 IndexError: too many indices for array: array is 0-dimensional, but 1 were indexed
 ``` 
 
-1-Dimensional Array
+## 1-Dimensional Array
+
 Vector - A vector has an axis because it is one-dimensional. A vector is essentially a list of numbers representing a point in space. The list of numbers is a way of identifying that point in space. Let's create a single row and column vector and check it's dimension and shape using the ndim function and shape attribute of Numpy array.
 
 ```
