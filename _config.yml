@@ -61,7 +61,7 @@ plugins:
 
 author:
   name   : "Ajit Albert Minj"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/Me.jpg"
   bio    : "Data Science - Machine learning and life's journey in 1000+ words :)"
   links:
     - label: "Website"
