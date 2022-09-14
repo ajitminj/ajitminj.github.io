@@ -123,14 +123,7 @@ Column Vector
 ``` 
 Now, let's check arrays (vector1 and vector2) dimension and shape and notice this is where it gets interesting as well as a bit confusing 🤷‍♂️😎
 
-
-COPY
-
-COPY
-
-COPY
-
-COPY
+```
 print("Vector1 has dimension of:", vector1.ndim)
 print("Vector1 has shape of:", vector1.shape)
 
@@ -145,6 +138,8 @@ Vector1 has shape of: (3,)
 --------------------------
 Vector2 has dimension of: 2
 Vector2 has shape of: (3, 1)
+```
+
 The row vector1 has a dimension of 1 and shape of 3 whereas column vector2 has dimension of 2 and shape of (3,1). (Note* Linear algebra makes a distinction between "row vectors" and "column vectors". There is no such distinction in NumPy)
 
 2-Dimensional Array
