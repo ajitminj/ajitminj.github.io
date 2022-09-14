@@ -44,29 +44,6 @@ Array1 = [1 2 3 4 5 6 7 8]
 Element at index position 1 is: 2
 Element at index position -7 is: 2
 ```
-
-
-
-COPY
-
-COPY
-
-COPY
-import numpy as np
-
-Array1 = np.array([1,2,3,4,5,6,7,8])
-# Element at index position 1
-print("Array1 =",Array1)
-print("-----------------------------")
-print("Element at index position 1 is:", Array1[1]) 
-# With negative indexing
-print("Element at index position -7 is:", Array1[-7])  
-
-Output:
-Array1 = [1 2 3 4 5 6 7 8]
-------------------------
-Element at index position 1 is: 2
-Element at index position -7 is: 2
 Zero-Dimensional Array
 Scalar - Numpy array in zero-dimension is a scalar value. It is simply a single number. A scalar is just a number with no dimension or axis. (an analogy to scalar value in physics, which has only magnitude but no direction or dimension/axis in this case) 👀. Scalars, are the elements in an array. Each value in an array is a zero-dimension array.
 
