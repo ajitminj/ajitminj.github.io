@@ -15,4 +15,4 @@ tags:
 - Since we would like to minimize the false negatives which means the number of people having diabetes predicted as they don’t have, Recall should be used as evaluation   metrics.
 
 3. Sigmoid function transforms a linear line into a curve which has values between 0 and 1.
-- This is true. The reason we choose a sigmoid function tp model classification problems solved with logistic regression is that we want to make sure that the predicted value has a defined range which helps in differentiating the classes.
+- This is true. The reason we choose a sigmoid function to model classification problems solved with logistic regression is that we want to make sure that the predicted value has a defined range which helps in differentiating the classes.
