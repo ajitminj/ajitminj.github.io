@@ -22,3 +22,6 @@ tags:
 
 5. Lasso regularization is useful when only a small subset of independent variables is significant in the predictive process. True or False?
 - True
+
+6. What do we mean by the process of dimensionality reduction?
+- Dimensionality reduction is a process of eliminating independent variables such that the maximum information is retained with limited variables.
