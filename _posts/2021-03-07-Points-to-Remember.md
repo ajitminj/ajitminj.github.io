@@ -25,3 +25,6 @@ tags:
 
 6. What do we mean by the process of dimensionality reduction?
 - Dimensionality reduction is a process of eliminating independent variables such that the maximum information is retained with limited variables.
+
+7. Missing value ratio and forward feature selection are feature selection techniques whereas PCA is feature extraction technique.
+8. Feature selection keeps a subset of the original features while feature extraction creates new features using the existing features. 
