@@ -42,4 +42,7 @@ tags:
 - True
 15. What does Gini value of 1 represent?
 - The nodes are homogeneous
+16. What does a high value of Chi-square indicate?
+- Node distribution is very different from parent node
+- Node is more homogeneous than the parent
 
