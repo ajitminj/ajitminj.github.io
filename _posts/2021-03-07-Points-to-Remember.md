@@ -45,4 +45,9 @@ tags:
 16. What does a high value of Chi-square indicate?
 - Node distribution is very different from parent node
 - Node is more homogeneous than the parent
-
+17. After splitting, Information Gain is more than that of the parent node. What does this mean?
+- High information gain means higher the homogeneity of nodes after the split.
+18. Can information gain be used for continuous target variable?
+- Gini, Chi-square and Information gain; all three techniques are used in the case of categorical target variable only.
+19. _____ the entropy, _____ would be the information gain.
+- The relation between entropy and information gain is: Information gain = 1 - Entropy. Hence, lower the entropy higher would be the IG and vice versa.
