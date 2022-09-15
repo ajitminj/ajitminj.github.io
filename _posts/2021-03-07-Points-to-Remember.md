@@ -38,3 +38,8 @@ tags:
 - Resultant nodes should be as homogeneous as possible.
 13. What does an ideal pure node have?
 - 100% of one class and 0 of other classes.
+14. Gini can be used for multiclass classification problems.
+- True
+15. What does Gini value of 1 represent?
+- The nodes are homogeneous
+
