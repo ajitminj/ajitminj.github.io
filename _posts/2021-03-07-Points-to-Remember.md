@@ -1,5 +1,6 @@
 ---
 title: "Points to Remember"
+excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
