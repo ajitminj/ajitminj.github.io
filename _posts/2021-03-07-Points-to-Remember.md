@@ -30,3 +30,7 @@ tags:
 8. Feature selection keeps a subset of the original features while feature extraction creates new features using the existing features.
 9. Why do we use the low variance filter?
 - Variables with low variance do not contain any significant information. 
+10. How do we apply a high correlation filter?
+- We calculate the correlation between independent variables and among the two correlated variables, the variable having less correlation with the target variable get dropped.
+11. While checking the correlations among the variables we should look for high positively correlated features?
+- This is false because we’re more concerned about the magnitude of the correlation rather than the sign. So both, high positively and negatively correlated variables should be taken into account.
