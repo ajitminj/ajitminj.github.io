@@ -16,3 +16,9 @@ tags:
 
 3. Sigmoid function transforms a linear line into a curve which has values between 0 and 1.
 - This is true. The reason we choose a sigmoid function to model classification problems solved with logistic regression is that we want to make sure that the predicted value has a defined range which helps in differentiating the classes.
+
+4. Ridge regression helps in pushing the insignificant independent variables to absolute zero. True or False?
+- False
+
+5. Lasso regularization is useful when only a small subset of independent variables is significant in the predictive process. True or False?
+- True
