@@ -34,3 +34,6 @@ tags:
 - We calculate the correlation between independent variables and among the two correlated variables, the variable having less correlation with the target variable get dropped.
 11. While checking the correlations among the variables we should look for high positively correlated features?
 - This is false because we’re more concerned about the magnitude of the correlation rather than the sign. So both, high positively and negatively correlated variables should be taken into account.
+12. In decision trees, What is the basic idea behind choosing the best split in the data?
+- Resultant nodes should be as homogeneous as possible.
+13. 
