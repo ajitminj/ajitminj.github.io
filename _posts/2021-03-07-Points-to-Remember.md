@@ -51,3 +51,9 @@ tags:
 - Gini, Chi-square and Information gain; all three techniques are used in the case of categorical target variable only.
 19. _____ the entropy, _____ would be the information gain.
 - The relation between entropy and information gain is: Information gain = 1 - Entropy. Hence, lower the entropy higher would be the IG and vice versa.
+20. Let's say you are asked to work on a problem to predict the future sales of a product in a store and decided to use a decision tree model. Which algorithm should be used for splitting?
+- Since sales is a continuous variable, so the reduction in variance technique should be used for splitting. Rest all are for categorical variables
+21. If a node has the same values or the node is purely homogeneous, the variance of the node would be?
+- Since the node has all similar values, the variance of the node would be 0.
+22. We select a variable having higher variance for the splitting?
+- A node having high variance means it is more impure. Since we seek the pure nodes after the splitting, the variable having low variance should be selected.
