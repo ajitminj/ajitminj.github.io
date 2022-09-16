@@ -57,10 +57,10 @@ tags:
 - Since the node has all similar values, the variance of the node would be 0.
 22. We select a variable having higher variance for the splitting?
 - A node having high variance means it is more impure. Since we seek the pure nodes after the splitting, the variable having low variance should be selected.
-21. In Decision trees, which of the parameter(s) can help to prevent overfitting?
+23. In Decision trees, which of the parameter(s) can help to prevent overfitting?
 - Max depth
 - Minimum samples for node split
 - Minimum samples for leaf node
-22. What is the maximum number of terminal nodes in a decision tree if our training dataset has N samples?
+24. What is the maximum number of terminal nodes in a decision tree if our training dataset has N samples?
 - N
 
