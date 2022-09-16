@@ -63,4 +63,5 @@ tags:
 - Minimum samples for leaf node
 24. What is the maximum number of terminal nodes in a decision tree if our training dataset has N samples?
 - N
-
+25. What is feature engineering?
+- Feature engineering is the process of extracting information from the existing data in order to improve the performance of the model.
