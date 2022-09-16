@@ -1,4 +1,4 @@
-# ---
+---
 title: "Welcome to Jekyll!"
 date: 2019-04-18T15:34:30-04:00
 categories:
@@ -27,4 +27,4 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
-#
+
