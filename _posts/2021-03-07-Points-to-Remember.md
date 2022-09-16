@@ -65,3 +65,7 @@ tags:
 - N
 25. What is feature engineering?
 - Feature engineering is the process of extracting information from the existing data in order to improve the performance of the model.
+26. Feature transformation is used for transforming non-linear data to linear and also to reduce the skewness of the variable.
+27. Log transformation is used for removing right skewness from the data.
+28. Feature transformation changes the distribution of the variable.
+29. Changing the scale of the data does not affect the distribution as scaling just changes the range of the data.
