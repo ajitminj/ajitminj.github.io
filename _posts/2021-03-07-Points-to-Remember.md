@@ -71,3 +71,6 @@ tags:
 29. Changing the scale of the data does not affect the distribution as scaling just changes the range of the data.
 30. Why do we need to combine sparse classes?
 - To reduce the no. of categories.
+31. What is binning?
+- Binning or discretization is the process of transforming numeric variables into categorical.
+ 
