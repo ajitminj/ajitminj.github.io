@@ -73,4 +73,6 @@ tags:
 - To reduce the no. of categories.
 31. What is binning?
 - Binning or discretization is the process of transforming numeric variables into categorical.
+32. While generating new features using the Feature Interaction method, we always use two categorical variables. True or false?
+- We can use any number of features or columns while performing feature interaction.
  
