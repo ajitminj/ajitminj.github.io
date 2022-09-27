@@ -75,4 +75,15 @@ tags:
 - Binning or discretization is the process of transforming numeric variables into categorical.
 32. While generating new features using the Feature Interaction method, we always use two categorical variables. True or false?
 - We can use any number of features or columns while performing feature interaction.
+33. Why do we need joins?
+- Joins are used in SQL to combine multiple tables.
+34. The most common used join in data science applications is?
+- The left join.
+35. How many left joins can be done in a single SQL query?
+- You can add any number of joins clauses in SQL query.
+36. Only one type of join can be done in one query?
+- False
+37. Which is the most time consuming join?
+- Cross join, since it tries to match all combinations of keys of first and second table
+38. 
  
