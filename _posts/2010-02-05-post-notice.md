@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Post: Notice"
 categories:
@@ -66,3 +67,4 @@ Or you could skip the capture and stick with straight HTML.
   <h4>Message</h4>
   <p>A basic message.</p>
 </div>
+-->
