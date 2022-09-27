@@ -85,5 +85,8 @@ tags:
 - False
 37. Which is the most time consuming join?
 - Cross join, since it tries to match all combinations of keys of first and second table
-38. 
+38. Indexing can be done on?
+- Indexing can be done only on one table as per SQL at a time, it can be done on multiple fields using composite key(s).
+39. The LIKE operator is used to do what?
+- LIKE is an operator which is used to do pattern matching based on regular expressions in SQL.
  
