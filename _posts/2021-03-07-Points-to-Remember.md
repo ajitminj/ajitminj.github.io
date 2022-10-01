@@ -91,4 +91,6 @@ tags:
 - LIKE is an operator which is used to do pattern matching based on regular expressions in SQL.
 40. What is the primary daemon process of MongoDB?
 - mongod is the primary daemon process of MongoDB that implements the queries in MongoDB.
+41. What is the interactive shell for MongoDB?
+- mongo is the interactive shell provided by MongoDB to implement queries in MongoDB.
  
