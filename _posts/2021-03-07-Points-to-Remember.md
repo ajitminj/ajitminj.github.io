@@ -93,4 +93,6 @@ tags:
 - mongod is the primary daemon process of MongoDB that implements the queries in MongoDB.
 41. What is the interactive shell for MongoDB?
 - mongo is the interactive shell provided by MongoDB to implement queries in MongoDB.
+42. What is the default port on which the local MongoDB server opens up?
+- The default MongoDB server opens up on the port 27017.
  
