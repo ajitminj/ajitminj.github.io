@@ -96,4 +96,6 @@ tags:
 42. What is the default port on which the local MongoDB server opens up?
 - The default MongoDB server opens up on the port 27017.
 43. What is the command to list all the databases on a MongoDB server?
-- The correct command to list all databases in MongoDB is show dbs
+- The correct command to list all databases in MongoDB is show dbs.
+44. Which are the database present in a MongoDB server by default?
+- By default you would find the admin, config, and local databases on a MongoDB server.
